@@ -2,3 +2,13 @@ main {
   min-height: 80vh;
   /* pushes the copyyright down */
 }
+
+/* gives spacing between product name and the ratings */
+h3 {
+  padding: 1rem 0;
+}
+
+/* spacing between reviews ratings and text */
+.rating span {
+  margin: 0.1rem;
+}
