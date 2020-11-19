@@ -43,7 +43,8 @@ const ProductScreen = ({ history, match }) => {
 
           <Col md={3}>
             <ListGroup variant='flush'>
-              {/* remove outer borders and rounded corners to render list group items edge-to-edge in a parent container such as a Card */}
+              {/* remove outer borders and rounded corners to render list group
+              items edge-to-edge in a parent container such as a Card */}
               <ListGroup.Item>
                 <h3>{product.name}</h3>
               </ListGroup.Item>
@@ -112,7 +113,6 @@ const ProductScreen = ({ history, match }) => {
             </Card>
           </Col>
         </Row>
-      )}
       )}
     </>
   )
